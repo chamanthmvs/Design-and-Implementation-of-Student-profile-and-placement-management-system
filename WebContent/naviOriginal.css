@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+
+#topnav{height:50px; overflow:hidden;}
+#topnav ul{display:block; width:100%; height:90px; margin:0; padding:0; list-style:none;}
+#topnav ul li ul{display:none;}
+#topnav ul li.active ul{display:block; position:absolute; top:50px; left:0; width:100%; height:40px;}
+#topnav li{display:block; float:left;}
+#topnav li.last{margin-right:0;}
+#topnav ul li a:link, #topnav ul li a:visited, #topnav ul li a:hover{display:block; float:left; height:38px; padding:15px 25px 0 25px; color:#333333; background-color:#E5E2C9;}
+#topnav ul ul li a:link, #topnav ul ul li a:visited, #topnav ul ul li a:hover{float:left; height:auto; margin:13px 15px 0 0; padding:0 16px 0 0; color:#FFFFFF; background-color:#591434; border-right:1px solid #FFFFFF;}
+#topnav ul ul li.last a{margin-right:0; padding:0; border-right:none;}
+#topnav ul li.active a, #topnav ul li a:hover{color:#FFFFFF; background-color:#591434;}
+
+/* ----------------------------------------------Column Navigation------------------------------------- */
+
+#column .subnav{display:block; width:250px; padding:25px; background-color:#FFFFFF; margin-bottom:30px;}
+#column .subnav h2{margin:0 0 20px 0; padding:0 0 14px 0; font-size:20px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#666666; background-color:#FFFFFF; line-height:normal; border-bottom:1px dotted #666666;}
+#column .subnav ul{margin:0; padding:0; list-style:none;}
+#column .subnav li{margin:0 0 3px 0; padding:0;}
+#column .subnav ul ul, #column .subnav ul ul ul, #column .subnav ul ul ul ul, #column .subnav ul ul ul ul ul{border-top:none; padding-top:0;}
+#column .subnav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#777777; background:url("C:/COMPUTER/E drive/Final Project/images/purple_file.gif") no-repeat 10px center #FFFFFF; text-decoration:none; border-bottom:1px dotted #666666;}
+#column .subnav a:hover{color:#591434; background-color:#FFFFFF;}
+#column .subnav ul ul a, #column .subnav ul ul ul a, #column .subnav ul ul ul ul a, #column .subnav ul ul ul ul ul a{background:url("images/black_file.gif") no-repeat #FFFFFF;}
+#column .subnav ul ul a{padding-left:40px; background-position:30px center;}
+#column .subnav ul ul ul a{padding-left:50px; background-position:40px center;}
+#column .subnav ul ul ul ul a{padding-left:60px; background-position:50px center;}
+#column .subnav ul ul ul ul ul a{padding-left:70px; background-position:60px center;}

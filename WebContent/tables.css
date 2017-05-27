@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+
+table{width:100%; border-collapse:collapse; table-layout:auto; vertical-align:top; margin-bottom:15px; border:2px solid #CCCCCC;}
+table thead th{color:#FFFFFF; background-color:#645951; border:1px solid #CCCCCC; border-collapse:collapse; text-align:center; table-layout:auto; vertical-align:middle;font-size:16px;}
+table tbody td{vertical-align:top; border-collapse:collapse; border-left:2px solid #CCCCCC; border-right:1px solid #CCCCCC;font-size:16px;}
+table thead th, table tbody td{padding:10px; border-collapse:collapse;}
+table th{font-size:18px;padding:12px 0px;}
+table tbody tr.light{color:#666666; background-color:#FDFFE1;}
+table tbody tr.dark{color:#666666; background-color:#FBFFC4;}

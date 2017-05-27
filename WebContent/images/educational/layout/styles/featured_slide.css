@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*
+Template Name: Educational
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Featured Slider CSS
+*/
+
+#featured_slide{position:relative; width:960px; margin:0 auto; padding:20px 0 0 0;}
+#featured_slide #featured_wrap{position:relative; width:940px; height:290px; padding:10px; overflow:hidden; color:#333333; background-color:#FFFFFF;}
+#featured_slide a{color:#CCCCCC; background-color:transparent;}
+#featured_slide a, #featured_slide ul, #featured_slide img{margin:0; padding:0; border:none; outline:none; list-style:none; text-decoration:none;}
+#featured_slide h1, #featured_slide h2, #featured_slide h3, #featured_slide h4, #featured_slide h5, #featured_slide h6{margin:0 0 15px 0; padding:0; line-height:normal; font-size:20px; font-weight:normal;}
+
+/* ----------------------------------------------Generalise------------------------------------- */
+
+#featured_content, .featured_box, .featured_box img{display:block; width:940px; height:290px;}
+#featured_content{overflow:hidden;}
+.featured_box{position:relative;}
+
+/* ----------------------------------------------Content------------------------------------- */
+
+.featured_box .floater{display:block; position:absolute; bottom:0; right:0; margin:0; padding:5px 10px; background-image:url("images/trans.png");}
+#featured_slide .floater a{font-weight:bold; text-transform:uppercase; color:#D6D1A9; background-color:transparent;}
+
+/* ----------------------------------------------Tabbed Navigation------------------------------------- */
+
+#featured_slide .ui-tabs-hide{display:none;}
+#featured_slide ul#featured_tabs{display:block; position:absolute; top:10px; left:10px; width:300px; height:270px; padding:10px; overflow:hidden; font-size:12px; color:#CCCCCC; background:url("images/trans.png") transparent; z-index:1;}
+#featured_slide ul#featured_tabs li{display:block; width:300px; height:53px; margin:0; padding:13px 0 0 0; border-bottom:2px dotted #7B7774;}
+#featured_slide ul#featured_tabs li.last{border-bottom:none;}
+#featured_slide ul#featured_tabs li a{display:block; width:300px; height:53px; margin:0; padding:0; font-size:18px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#CCCCCC; background:url("images/file.png") top right no-repeat transparent;}
+#featured_slide ul#featured_tabs li a span{display:block; margin:10px 0 0 0; padding:0; font-size:12px; font-weight:normal; font-family:Verdana, Arial, Helvetica, sans-serif;}
+#featured_slide ul#featured_tabs li a:hover, #featured_slide ul#featured_tabs li.ui-tabs-active a{color:#D6D1A9; background-color:transparent; background-image:url("images/file2.png");}
