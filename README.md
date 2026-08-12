@@ -5,3 +5,5 @@ It is Student Information Digitalisation system
                    This project deals with all kind of student details, academic related reports, college details, course details, curriculum, transcripts, batch details, placement details and other resource related details too. It tracks all personal details, previous academic details, current academic details of a student, all these will be available through a secure, online interface embedded in the college’s website. 
                    Administrator manages all student details as well as faculty details, admin provides Login credentials to both student and faculty. This application is accessed with proper login provided by admin. Accessing functionality differs for both students as well as faculty, as Faculty has access to view all students in his/her department where Student has access to only his/her page.
                    This system can be used as an application for the TPO of the college to manage the student information with regards to placement and college management.
+
+https://www.slideshare.net/slideshow/design-and-implementation-of-student-profile-and-placement-management-system/76485815
